@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="youtubedownloader.css">
+   
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+</head>
+<body>
+    <h1 class="heading">My Own YouTube Downloader !</h1>
+    <input id="URL-input" placeholder="Video URL e.g. https://www.youtube.com/watch?v=MtN1YnoL46Q">
+    <button id="convert-button">Convert</button>
+    <button id="download-btn" py-click="download_video()">Download</button>
+    <script src="youtubedownloader.js"></script>
+   <py-script src="youtubedownloader.py"></py-script>
+</body>
+</html>
